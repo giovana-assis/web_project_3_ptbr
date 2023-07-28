@@ -17,6 +17,7 @@
   line-height: 100px;
   width: 720px;
   text-align: center;
+  margin: 90px auto 0;
 }
 
 .header__subtitle {
@@ -26,4 +27,5 @@
   line-height: 36px;
   width: 720px;
   text-align: center;
+  margin: 32px auto 64px;
 }

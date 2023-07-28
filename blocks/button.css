@@ -10,5 +10,12 @@
   border: none;
   border-radius: 4px;
   padding: 13px 20px 13px 20px;
-  /* width: 80%; */
+  max-height: 48px;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0063D2;
+  transition: ease-in-out 0.5s;
 }

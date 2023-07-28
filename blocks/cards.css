@@ -17,6 +17,11 @@
   font-weight: 900;
   margin: 0;
   max-width: 50%;
+  max-height: 152px;
+}
+
+.card:nth-child(2n) .card__title {
+  max-width: 100%;
 }
 
 
@@ -53,4 +58,8 @@
 }
 .card__text_paragraph:first-of-type {
   margin: 0;
+}
+
+.card .button {
+  width: 80%;
 }

@@ -1,0 +1,40 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  position: relative;
+  left: 148px;
+}
+
+.introduction__title {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  margin: 92px auto 75px;
+}
+
+.introduction__quote {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 9px;
+}
+
+.introduction__author {
+  text-align: right;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.introduction__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%;
+  margin: 32px auto 92px;
+}
