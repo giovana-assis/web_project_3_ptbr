@@ -15,12 +15,16 @@
 .opacity {
   transition: ease-in-out 0.5s;
 }
-.cover:hover {
-  opacity: 0.2;
 
-
+.cover__title {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  margin: 0;
+  max-width: 100%;
+  max-height: 152px;
+  z-index: 1;
 }
-
 .cover__address {
   margin: 0;
   font-size: 18px;
@@ -30,5 +34,25 @@
   max-width: 280px;
   margin: 32px auto;
   z-index: 1;
-  color: #FFFDFD;
+}
+
+.cover__overlay{
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+}
+
+.cover:hover .cover__overlay {
+  transition: ease-in 0.9s;
+  opacity: 0.8;
+}
+
+@media  screen and (max-width: 768px) {
+  .cover {
+    margin: 92px 0 88px;
+    width: 100%;
+  }
+
 }

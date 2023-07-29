@@ -1,10 +1,10 @@
-.card{
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "card__title card__artist"
-  "card__image card__text"
-  "card__button card__text";
+    "card__title card__artist"
+    "card__image card__text"
+    "card__button card__text";
   grid-gap: 48px 40px;
   margin: 80px auto 0;
   width: 70%;
@@ -24,10 +24,8 @@
   max-width: 100%;
 }
 
-
 .card__image {
   width: 100%;
-  height: 100%;
   grid-area: card__image;
 }
 
@@ -52,14 +50,53 @@
   width: 100%;
   line-height: 1.5;
 }
+
 .card__text_paragraph {
   margin-top: 25px;
   margin-bottom: 0;
 }
+
 .card__text_paragraph:first-of-type {
   margin: 0;
 }
 
 .card .button {
   width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    margin: 0;
+  }
+
+  .card {
+    width: 93.5%;
+    margin-left: 24px;
+    margin-right: 24px;
+    grid-gap: 48px 28px;
+    grid-template-rows: auto 340px auto;
+  }
+
+  .card__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 100%;
+  }
+  .card__image {
+    min-height: 340px;
+  }
+
+  .card__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card .button {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
 }
