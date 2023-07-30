@@ -21,3 +21,12 @@
     margin-bottom: 88px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+    width: 92.5%;
+    margin: 0 16px 0;
+  }
+}

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   max-width: 65%;
-  position: relative;
   margin-left: 148px;
 }
 
@@ -24,7 +23,6 @@
 
 .introduction__author {
   text-align: right;
-  font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -35,15 +33,15 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 163%;
+  line-height: 26px;
   margin: 32px auto 92px;
 }
 
 @media screen and (max-width: 768px) {
   .introduction {
     max-width: 92.5%;
-    max-height: 612px;
-    justify-content: center;
+    /* max-height: 100%;
+    justify-content: center; */
     margin: 88px 24px 0;
   }
 
@@ -62,4 +60,36 @@
   .introduction__text {
     margin-bottom: 64px;
   }
+}
+
+
+@media screen and (max-width: 400px) {
+  .introduction {
+    max-width: 88%;
+    margin: 44px 16px 38px;
+  }
+
+  .introduction__title {
+    margin: 0 0 54px;
+    font-size: 32px;
+    line-height: 35px;
+
+  }
+
+  .introduction__quote {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .introduction__author {
+    margin-top: 55px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .introduction__text {
+    margin-bottom: 0;
+  }
+
 }
