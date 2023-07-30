@@ -10,3 +10,6 @@ O projeto foi estruturado em HTML5 e estilizado com folhas de CSS.
 ### Planos futuros para o projeto
 
 Adicionar formulário para inserção de novas cidades de acordo com o usuário. Além de novas funcionalidades com JavaScript.
+
+### Acesse o site em: 
+https://giovana-assis.github.io/web_project_3_ptbr/
