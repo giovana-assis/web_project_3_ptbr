@@ -34,7 +34,7 @@
   align-self: flex-end;
 }
 
-.card__artist_name {
+.card__artist-name {
   text-transform: uppercase;
   margin: 0 0 8px;
   color: #AAA;
@@ -45,7 +45,7 @@
   line-height: normal;
 }
 
-.card__artist_description {
+.card__artist-description {
   margin: 0;
   font-size: 18px;
   font-style: normal;
@@ -60,12 +60,12 @@
   line-height: 1.63;
 }
 
-.card__text_paragraph {
+.card__text-paragraph {
   margin-top: 25px;
   margin-bottom: 0;
 }
 
-.card__text_paragraph:first-of-type {
+.card__text-paragraph:first-of-type {
   margin: 0;
 }
 
@@ -141,7 +141,7 @@
     margin-right: 16px;
   }
 
-  .card__artist_description {
+  .card__artist-description {
     margin: 8px 0 30px;
   }
 
